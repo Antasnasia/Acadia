@@ -57,3 +57,57 @@ html, body {
 .header-social-icon:hover {
 	color: #000;
 }
+/*styles for banner section*/ 
+.banner{
+	display: grid;
+	grid-template-columns: 5fr 6fr;
+	align-items: flex-end;
+	padding: 32px;
+}
+.banner-img {
+	width: 100%;
+}
+.banner-content {
+	padding-left: 30px;
+	display: grid;
+	grid-template-areas: "header ."
+	"latest insta";
+}
+.banner-img-container {
+	display: flex;
+	align-items: flex-end;
+}
+.banner-content-header {
+	font-size: 36px;
+	width: 280px;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	padding: 10px 0;
+	text-transform: uppercase;
+	grid-area: header ;
+}
+.banner-content-img {
+	width: 230px;
+}
+.banner-latest-container {
+	grid-area: latest;
+
+} 
+.banner-insta-container {
+	grid-area: insta;
+}
+.banner-content-img-container {
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+}
+.banner-bottom-text {
+	position: absolute;
+	left: 30px;
+	bottom: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
