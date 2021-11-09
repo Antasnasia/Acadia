@@ -72,6 +72,10 @@
 	.banner-bottom-text {
 		font-size: 13px;
 	}
+	.intro {
+		grid-template-columns: 1fr;
+		padding: 32px;
+	}
 }
 @media screen and (max-width: 600px) {
 	.header-container {
