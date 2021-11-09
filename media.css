@@ -56,6 +56,9 @@
 	.blog-img-name-container {
 		bottom: -45px;
 	}
+	.insta {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
 }
 @media screen and (max-width: 700px) {
@@ -132,5 +135,12 @@
 	}
 	.blog-img-name-container {
 		bottom: -60px;
+	}
+	.insta-item-desc {
+		padding: 8px;
+		font-size: 22px;
+	}
+	.insta-item {
+		padding: 16px;
 	}
 }
